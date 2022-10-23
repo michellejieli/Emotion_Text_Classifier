@@ -3,7 +3,7 @@
 
 ## Emotion Classification from Text 
 
-Fine-tune DistilRoBERTa-base transformer model on Friends show transcript to predict emotions to aid individuals with autism learn facial recognition. Pushed model back to [Hugging Face]([https://huggingface.co/michellejieli/emotion_text_classifier?text=Wow%2C+congratulations%21+So+excited+for+you%21])
+Fine-tune DistilRoBERTa-base transformer model on Friends show transcript to predict emotions to aid individuals with autism learn facial recognition. Pushed model back to [Hugging Face](https://huggingface.co/michellejieli/emotion_text_classifier?text=Wow%2C+congratulations%21+So+excited+for+you%21)
 
 1. Open a new shell and verify virtualenv is sourced.
 
