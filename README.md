@@ -3,7 +3,7 @@
 
 ## Emotion Classification from Text 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+1. Open a new shell and verify virtualenv is sourced.
 
 Things included are:
 
@@ -35,22 +35,6 @@ The following examples test out the GPU
 * run nvidia monitoring test: `nvidia-smi -l 1` it should show a GPU
 * run whisper transcribe test `./utils/transcribe-whisper.sh` and verify GPU is working with `nvidia-smi -l 1`
 
-Additionally, this workspace is setup to fine-tune Hugging Face
-
-![fine-tune](https://user-images.githubusercontent.com/58792/195709866-121f994e-3531-493b-99af-c3266c4e28ea.jpg)
-
-
-`python hf_fine_tune_hello_world.py` 
-
-### Used in Following Projects
-
-Used as the base and customized in the following Duke MLOps and Applied Data Engineering Coursera Labs:
-
-* [MLOPs-C2-Lab1-CICD](https://github.com/nogibjj/Coursera-MLOPs-Foundations-Lab-1-CICD)
-* [MLOps-C2-Lab2-PokerSimulator](https://github.com/nogibjj/Coursera-MLOPs-Foundations-Lab-2-poker-simulator)
-* [MLOps-C2-Final-HuggingFace](https://github.com/nogibjj/Coursera-MLOps-C2-Final-HuggingFace)
-* [Coursera-MLOps-C2-lab3-probability-simulations](Coursera-MLOps-C2-lab3-probability-simulations)
-* [Coursera-MLOps-C2-lab4-greedy-optimization](https://github.com/nogibjj/Coursera-MLOps-C2-lab4-greedy-optimization)
 ### References
 
 * [Building Cloud Computing Solutions at Scale Specialization](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
