@@ -5,7 +5,7 @@
 
 1. Open a new shell and verify virtualenv is sourced.
 
-Things included are:
+Included in virtualenv: 
 
 * `Makefile`
 
@@ -25,9 +25,7 @@ Things included are:
 
 * `githubactions` 
 
-### Verify GPU works
-
-The following examples test out the GPU
+2. Verify GPU using: 
 
 * run pytorch training test: `python utils/quickstart_pytorch.py`
 * run pytorch CUDA test: `python utils/verify_cuda_pytorch.py`
